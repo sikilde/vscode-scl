@@ -29,7 +29,9 @@
                     "scl",
                     "SCL",
                     "udt",
-                    "db"
+                    "db",
+                    "TcPOU",
+                    "TcGVL"
                 ],
                 "configuration": "./language-configuration.json"
             }
@@ -38,13 +40,13 @@
             {
                 "language": "siemensscl",
                 "scopeName": "source.scl",
-                "path": "./syntaxes/vscode-siemens-scl.tmLanguage.json"
+                "path": "./syntaxes/vscode-scl.tmLanguage.json"
             }
         ],
         "snippets": [
             {
                 "language": "siemensscl",
-                "path": "./snippets/vscode-siemens-scl.json"
+                "path": "./snippets/vscode-scl.json"
             }
         ]
     }
